@@ -21,6 +21,16 @@
     },
     "homepage": "https://github.com/OskarHulter/mock-mail-client#readme",
     "dependencies": {
-        "express": "^4.16.3"
+        "express": "^4.16.3",
+        "react": "^16.5.2",
+        "react-dom": "^16.5.2",
+        "react-router": "^4.3.1"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^8.0.2",
+        "babel-preset-react": "^6.24.1",
+        "webpack": "^4.19.1",
+        "webpack-cli": "^3.1.0"
     }
 }
