@@ -1,0 +1,26 @@
+{
+    "name": "mock-mail-client",
+    "version": "1.0.0",
+    "description": "A small mock mail client",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OskarHulter/mock-mail-client.git"
+    },
+    "keywords": [
+        "mail"
+    ],
+    "author": "Oskar Hulter",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/OskarHulter/mock-mail-client/issues"
+    },
+    "homepage": "https://github.com/OskarHulter/mock-mail-client#readme",
+    "dependencies": {
+        "express": "^4.16.3"
+    }
+}
