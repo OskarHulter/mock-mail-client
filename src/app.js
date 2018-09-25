@@ -5,7 +5,6 @@ const app = express();
 app.use(express.static(path.join(__dirname, '..', 'dist')));
 
 app.all('*', (req, res) => {
-    console.log('foo');
     res.sendFile(path.join(__dirname, '..', 'dist', 'index.html'));
 });
 

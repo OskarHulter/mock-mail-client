@@ -1,5 +1,5 @@
 const React = require('react');
-const styled = require('styled-components').styled;
+const styled = require('styled-components');
 const Input = require('@material-ui/core/Input').default;
 const Button = require('@material-ui/core/Button').default;
 const SearchIcon = require('@material-ui/icons/Search').default;
@@ -34,6 +34,4 @@ class Header extends React.Component {
         );
     }
 }
-module.exports = () => {
-    return <HeaderWrapper>This is the header</HeaderWrapper>;
-};
+module.exports = Header;
