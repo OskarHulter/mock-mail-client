@@ -1,10 +1,10 @@
 const React = require('react');
-const styled = require('styled-components');
+const styled = require('styled-components').default;
 const Input = require('@material-ui/core/Input').default;
 const Button = require('@material-ui/core/Button').default;
 const SearchIcon = require('@material-ui/icons/Search').default;
 
-const HeaderWrapper = styled.nav`
+const HeaderWrapper = styled.header`
     font-size: 1.2em;
     padding: 20px;
 `;
@@ -22,7 +22,7 @@ class Header extends React.Component {
 
     render() {
         return (
-            <header className="header">
+            <HeaderWrapper>
                 <span className="header__logo">Omail</span>
                 <form className="header__search-form" onSubmit={this.onSubmit}>
                     <Input fullWidth className="header__search-field" />
@@ -30,7 +30,7 @@ class Header extends React.Component {
                         <SearchIcon />
                     </Button>
                 </form>
-            </header>
+            </HeaderWrapper>
         );
     }
 }
